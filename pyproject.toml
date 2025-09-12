@@ -21,6 +21,7 @@ dependencies = [
     "ipython",
     "jupyterlab",
     "matplotlib",
+    "mlflow>=3.3.2",
     "notebook",
     "numpy",
     "pandas",
