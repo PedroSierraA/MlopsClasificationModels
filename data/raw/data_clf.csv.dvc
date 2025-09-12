@@ -1,0 +1,12 @@
+md5: ef2e23974645cac29b8c08ed91af01f0
+frozen: true
+deps:
+- etag: 5fbd1eadbd6c9b68892dee830dd7775a
+  size: 375689
+  hash: md5
+  path: s3://pedro-databricks-models/data_clf.csv
+outs:
+- md5: 5fbd1eadbd6c9b68892dee830dd7775a
+  size: 375689
+  hash: md5
+  path: data_clf.csv
