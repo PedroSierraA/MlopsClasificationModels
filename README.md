@@ -1,5 +1,13 @@
 # mlops-clasification
 
+
+### Para correr el proyecto usar:
+
+**Streamlit run app/streamlit_app.py**  
+
+El proyecto está manejado con dvc para los datos 
+
+
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
@@ -40,21 +48,6 @@ A short description of the project.
 ├── setup.cfg          <- Configuration file for flake8
 │
 └── mlops_clasification   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes mlops_clasification a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
 ```
 
 --------
