@@ -4,8 +4,8 @@ import joblib
 
 # --- Rutas de los modelos ---
 MODEL_PATHS = {
-    "Modelo 1": "models/decision_tree_model.pkl",
-    "Modelo 2": "models/knn_model.pkl"
+    "Arbol de Decisión": "models/decision_tree_model.pkl",
+    "KNN": "models/knn_model.pkl"
 }
 
 # --- Cargar modelos en memoria ---
