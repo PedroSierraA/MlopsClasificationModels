@@ -4,8 +4,8 @@ import joblib
 
 # --- Rutas de los modelos ---
 MODEL_PATHS = {
-    "Arbol de Decisión": "../models/decision_tree_model.pkl",
-    "KNN": "../models/knn_model.pkl"
+    "Arbol de Decisión": "models/decision_tree_model.pkl",
+    "KNN": "models/knn_model.pkl"
 }
 
 # --- Cargar modelos en memoria ---
@@ -72,4 +72,4 @@ if st.button("Predecir Adicción"):
 
     # Mostrar resultado
     st.subheader("Resultado de la Predicción:")
-    st.write("Adicción al Celular" if prediction[0] == 1 else "No Adicción")
+    st.write(f"**Nivel de Adicción: {prediction[0]}**")
